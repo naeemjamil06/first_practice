@@ -1,0 +1,125 @@
+body {
+    margin: 30px 50px 50px 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_button {
+    border: 0px;
+    border-radius: 30px;
+    margin: 14px;
+    background: linear-gradient(128deg, rgba(58, 111, 253, 0.10) 0%, rgba(214, 58, 202, 0.10) 100%);
+}
+
+#main {
+    .sec_1 {
+
+        .main_body {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main_1 {
+            padding-right: 12px;
+        }
+
+        .main_2 {
+            border-radius: 30px;
+            background: rgba(252, 165, 144, 0.30);
+            padding: 24px 30px 32px 30px;
+        }
+
+        .main_3 {
+            border-radius: 30px;
+            background: rgba(251, 251, 166, 0.30);
+            padding: 24px 30px 32px 30px;
+
+        }
+
+        .main_4 {
+            padding-left: 12px;
+        }
+
+        .mid_1 {
+            border-radius: 30px;
+            background: rgba(204, 252, 144, 0.30);
+        }
+    }
+
+
+
+    .sec_3 {
+
+        .main_body {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            text-align: center;
+
+            .main_2 {
+                border-radius: 30px;
+                background: #CCFC904D;
+                align-self: center;
+                width: 40%;
+                padding: 10px;
+
+            }
+
+
+            .main_3 {
+                text-align: center;
+                border-radius: 30px;
+                background: #A6FBEC4D;
+                padding: 10px;
+                align-self: center;
+                width: 40%;
+                padding: 10px;
+
+            }
+        }
+        .main_body {
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            text-align: center;
+
+            .main_2 {
+                border-radius: 30px;
+                background: #A6FBEC4D;
+                align-self: center;
+                width: 40%;
+                padding: 10px;
+
+            }
+
+
+            .main_3 {
+                text-align: center;
+                border-radius: 30px;
+                background: #FBA6D94D;
+                padding: 10px;
+                align-self: center;
+                width: 40%;
+                padding: 10px;
+
+            }
+        }
+ 
+    }
+
+    .sec_4 {
+        .container {
+            margin: 0 auto;
+        }
+
+        .con_1 {
+            border-radius: 30px;
+            background: rgba(166, 144, 252, 0.20);
+            padding: 10px;
+        }
+    }
+}
